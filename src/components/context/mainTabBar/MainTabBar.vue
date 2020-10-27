@@ -2,7 +2,6 @@
 <template>
   <div>
     <tab-bar>
-
       <tab-bar-item link='/home'>
         <img slot="icon" src="~assets/img/tabbar/home.svg" alt="">
         <img slot="icon-active" src="~assets/img/tabbar/home_active.svg" alt="">

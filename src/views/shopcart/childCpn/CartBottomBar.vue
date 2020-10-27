@@ -1,6 +1,6 @@
 <!--  -->
 <template>
-  <div class="bottom-bar">
+  <div class="bottom-bar bottom-height">
     <div class="selector">
       <check-button :is-checked='allSelect' @click.native="allClick"/>
     </div>
@@ -79,11 +79,14 @@
     line-height: 30px;
     display: flex;
     position: fixed;
-    bottom: 48px;
     left: 0;
     right: 0;
     background-color: #f1f1f1;
     box-shadow: 0 -2px 2px rgba(100, 100, 100, .2);
+  }
+
+  .bottom-height {
+    bottom: 48px;
   }
 
   .selector {

@@ -7,7 +7,8 @@ module.exports = {
       viewportUnit: 'vw', //指定需要转换成的单位
       mediaQuary: false, // 是否允许在媒体查询中转换px
       minPixelValue: 1, //小于1px不转换
-      exclude: [/TabBar/]  //不转化的文件, 数组中的元素要用正则
+      exclude: [/TabBar/],  //不转化的文件, 数组中的元素要用正则
+			selectorBlackList: [/^\.cart$/, /^\.bottom-height$/] //不转化的类
     }
   }
 }

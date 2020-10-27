@@ -23,7 +23,7 @@
       },
       animDuration: {
 		    type: Number,
-        default: 2000
+        default: 300
       },
       moveRatio: {
         type: Number,
@@ -50,7 +50,7 @@
 
         // 2.开启定时器
         this.startTimer();
-      }, 100)
+      }, 3000)
     },
     methods: {
 		  /**
